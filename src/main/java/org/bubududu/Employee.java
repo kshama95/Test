@@ -13,6 +13,7 @@ public class Employee {
     String employeeName;
     Date EmploymentStartDate;
     String jobStatusCode;
+    String t;
     Employee(int EmployeeID, String employeeName, Date EmploymentStartDate, String jobStatusCode){
         this.EmployeeID=EmployeeID;
         this.employeeName= employeeName;
